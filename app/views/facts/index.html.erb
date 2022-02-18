@@ -1,0 +1,21 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Facts</h1>
+<%= link_to "New fact", new_fact_path %>
+<div></div>
+<hr>
+<table class="table is-bordered">
+    <tr>
+      <td>Character:</td>
+      <td>Droid:</td>
+      <td>Planet:</td>
+      <td>Quote:</td>
+      <td></td>
+    </tr>
+
+    <% @facts.each do |fact| %>
+      <%= render fact %>
+    <% end %>
+</table>
+
+
