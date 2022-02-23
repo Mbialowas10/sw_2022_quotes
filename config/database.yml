@@ -21,4 +21,4 @@ test:
   database: db/test.sqlite3
 
 production:
-  <%= c %> # postgres:// user:password@host:123
+   database: <%= ENV['DATABASE_URL'] %> # postgres:// user:password@host:123
