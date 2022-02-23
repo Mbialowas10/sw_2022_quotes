@@ -227,7 +227,7 @@ PLATFORMS
 
 DEPENDENCIES
   bootsnap
-  bundler (~> 2.1, >= 2.1.4)
+  bundler (~> 2.2, >= 2.2.33)
   capybara
   debug
   faker!
@@ -246,7 +246,7 @@ DEPENDENCIES
   webdrivers
 
 RUBY VERSION
-   ruby 2.7.5p203
+   ruby 2.7.1p83
 
 BUNDLED WITH
    2.3.6
