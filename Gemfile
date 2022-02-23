@@ -67,8 +67,6 @@ end
 group :production do
   gem 'pg'
   gem 'rails_12factor'
-  gem 'faker', :git => 'https://github.com/faker-ruby/faker.git', :branch => 'master'
-  gem 'bundler', '~> 2.1', '>= 2.1.4'
 end
 group :test do
   # Use system testing [https://guides.rubyonrails.org/testing.html#system-testing]
